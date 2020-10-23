@@ -1,3 +1,4 @@
+	
 ##### global settings #####
 
 .PHONY: nemu entry testcase kernel run gdb test submit clean
@@ -16,14 +17,7 @@ include config/Makefile.git
 include config/Makefile.build
 
 all: nemu
-	--- Makefile
-	+++ Makefile
-
-	@@ -56,2 +56,2 @@
--USERPROG = obj/testcase/mov
-+USERPROG = obj/testcase/mov-c
- ENTRY = $(USERPROG)
-
+	
 
 ##### rules for building the project #####
 
@@ -59,7 +53,13 @@ clean: clean-cpp
 
 
 ##### some convinient rules #####
+	--- Makefile
+	+++  Makefile
 
+	@@ 	-56,2 +56,2  @@
+-USERPROG = obj/testcase/mov
++USERPROG = obj/testcase/mov-c
+ENTRY = $(USERPROG)
 USERPROG := obj/testcase/mov
 ENTRY := $(USERPROG)
 
