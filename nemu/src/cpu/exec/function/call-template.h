@@ -5,7 +5,7 @@
 
 make_helper (concat(call_i_, SUFFIX))
 {
-	int len = concat(decode_i_, SUFFIX) (eip + 1);
+	int len = concat(decode_i_, SUFFIX) (eip + DATA_BYTE);
 
 	reg_l (R_ESP) -= DATA_BYTE;
 
@@ -14,7 +14,7 @@ make_helper (concat(call_i_, SUFFIX))
 	DATA_TYPE_S displacement = op_src->val;
 	print_asm("call %x",cpu.eip + 1 + len + displacement);
 	cpu.eip +=displacement;
-    
+
 	return len + 1;
 }
 
