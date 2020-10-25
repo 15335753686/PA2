@@ -5,7 +5,7 @@
 
 make_helper (concat(call_i_, SUFFIX))
 {
-	int len = concat(decode_i_, SUFFIX) (eip + DATA_BYTE);
+	int len = concat(decode_i_, SUFFIX) (eip + 1);
 
 	reg_l (R_ESP) -= DATA_BYTE;
 
