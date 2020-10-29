@@ -5,6 +5,7 @@
 #include "data-mov/movext.h"
 #include "data-mov/cltd.h"
 #include "data-mov/leave.h"
+#include "data-mov/push.h"
 
 #include "arith/dec.h"
 #include "arith/inc.h"
@@ -30,3 +31,4 @@
 #include "special/special.h"
 
 #include "function/call.h"
+
