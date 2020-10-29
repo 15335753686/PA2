@@ -6,6 +6,7 @@
         reg_l(R_ESP)   -= 4;
 
         swaddr_write(reg_l(R_ESP),4,op_src->val);
+        print_asm_template1();
         
 }
 
