@@ -19,7 +19,7 @@ make_helper(inv) {
 	printf("Find this eip value(0x%08x) in the disassembling result to distinguish which case it is.\n\n", eip);
 	printf("\33[1;31mIf it is the first case, see\n%s\nfor more details.\n\nIf it is the second case, remember:\n\
 * The machine is always right!\n\
-* Every line of untested code is always wrong!\33[0m\n\n", logo);
+* Every line of untested code is always wronggzq!\33[0m\n\n", logo);
 
 	assert(0);
 }
