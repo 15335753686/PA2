@@ -57,7 +57,7 @@ typedef struct {
      swaddr_t eip;
 	
 } CPU_state;
-
+uint8_t  current_sreg;
 extern CPU_state cpu;
 
 static inline int check_reg_index(int index) {
