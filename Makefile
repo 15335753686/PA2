@@ -58,7 +58,7 @@ clean: clean-cpp
 
 	@@ 	-56,2 +56,2  @@
 
-USERPROG = obj/testcase/mov-c
+USERPROG = testcase/src/add.c
 ENTRY := $(USERPROG)
 
 entry: $(ENTRY)
