@@ -58,7 +58,7 @@ clean: clean-cpp
 
 	@@ 	-56,2 +56,2  @@
 
-USERPROG = obj/testcase/add
+USERPROG = obj/testcase/add-longlong
 ENTRY := $(USERPROG)
 
 entry: $(ENTRY)
