@@ -58,7 +58,7 @@ clean: clean-cpp
 
 	@@ 	-56,2 +56,2  @@
 
-USERPROG = obj/testcase/bit
+USERPROG = obj/testcase/bubble-sort
 ENTRY := $(USERPROG)
 
 entry: $(ENTRY)
