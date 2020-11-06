@@ -42,6 +42,9 @@
 
 #include "special/special.h"
 
+
+
+#include"function/jg.h"
 #include "function/call.h"
 #include"function/je.h"
 #include"function/ret.h"
