@@ -46,6 +46,7 @@
 #include"function/je.h"
 #include"function/ret.h"
 #include"function/jmp.h"
+#include"function/jle.h"
 #include"function/jbe.h"
 #include"function/jne.h"
 
